@@ -56,7 +56,7 @@ function sucesso() {
     limpaCampo(campoEmail)
     limpaCampo(campoMensagem)
     limpaCampo(campoAssunto)
-    formularioSubmetido("Formulario enviado com sucesso", "sucesso")
+    formularioSubmetido("Agradecemos o Contato!", "sucesso")
 }
 
 function erro() {

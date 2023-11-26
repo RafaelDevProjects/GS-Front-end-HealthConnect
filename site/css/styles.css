@@ -86,7 +86,7 @@ nav ul a{
 
 nav ul a:not(.btn)::after{
     content: '';
-    background-color: #4f9cf9;
+    background-color: #7FD9E4;
     height: 3px;
     width: 0%;
     display: block;
@@ -270,7 +270,7 @@ nav .close-icon{
 }
 
 .footer{
-    background-color: #4f9cf9;
+    background-color: #E784B2;
     text-align: center;
 }
 
@@ -318,6 +318,17 @@ nav .close-icon{
 
 .sobre .sobre-text{
     text-align: justify;
+}
+
+.sobre .grafico{
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.sobre .grafico img{
+    width:70%;
+    
 }
 
 /*end pagina sobre*/
@@ -491,9 +502,10 @@ nav .close-icon{
 .contato-info .left-side{
     width: 50%;
     padding: 30px;
-    background-color: #4f9cf9;
+    background-color: #FCFDFE;
     border-radius: 14px;
     margin-right: 50px;
+    text-align: center;
     height: fit-content;
 
 }
