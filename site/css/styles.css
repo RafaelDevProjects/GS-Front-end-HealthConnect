@@ -31,7 +31,7 @@ p{
 }
 
 .btn{
-    background-color: #77DBE8;
+    background-color: #E982B3;
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
@@ -51,7 +51,7 @@ p{
 
 @keyframes animate-outline {
     from{
-        outline: 0px solid #77DBE8;
+        outline: 0px solid #E982B3;
     }
     to{
         outline: 15px solid #4f9bf900;
@@ -86,7 +86,7 @@ nav ul a{
 
 nav ul a:not(.btn)::after{
     content: '';
-    background-color: #7FD9E4;
+    background-color: #E982B3;
     height: 3px;
     width: 0%;
     display: block;
@@ -270,7 +270,7 @@ nav .close-icon{
 }
 
 .footer{
-    background-color: #E784B2;
+    background-color: #77DBE8;
     text-align: center;
 }
 
