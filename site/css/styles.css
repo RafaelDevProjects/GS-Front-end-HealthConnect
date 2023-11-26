@@ -333,16 +333,16 @@ nav .close-icon{
 
 /*end pagina sobre*/
 
-/*Pagina exames*/
-.exames h3{
+/*Pagina demonstração*/
+.cards h3{
     text-align: center;
 }
 
-.exames .container > p{
+.cards .container > p{
     text-align: center;
 }
 
-.exames .rows-cards{
+.cards .rows-cards{
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -350,7 +350,7 @@ nav .close-icon{
     /* align-items: stretch; */
 }
 
-.exames .row-card-item{
+.cards .row-card-item{
     background-color: #d3e6fd;
     width: 350px;
     height: 350px;
@@ -362,35 +362,35 @@ nav .close-icon{
     cursor: pointer;
 }
 
-.exames .row-card-item:hover{
+.cards .row-card-item:hover{
     background-color: #4f9cf9;
 }
 
-.exames .row-card-item:hover p{
+.cards .row-card-item:hover p{
     color: white;
 }
 
-.exames .row-card-item p.nome-exame{
+.cards .row-card-item p.nome-card{
     margin: 5px 0;
     transition: 0.3s;
 }
 
-.exames .row-card-item p.descricao-exame{
+.cards .row-card-item p.descricao-card{
     transition: 0.3s;
 }
 
-.exames .row-card-item img{
+.cards .row-card-item img{
     background-color: #4f9cf9;
     border-radius: 14px;
     width: 70px;
     padding: 9px;
 }
 
-.exames .row-card-item {
+.cards .row-card-item {
     position: relative;
 }
 
-.exames .row-card-item .play-button {
+.cards .row-card-item .play-button {
     position: absolute;
     top: 30px; /* Ajuste a posição conforme necessário */
     right: 30px; /* Ajuste a posição conforme necessário */
@@ -407,11 +407,11 @@ nav .close-icon{
 
 
 /* Adicione estilos de hover para o botão de play se desejar */
-.exames .row-card-item .play-button:hover {
+.cards .row-card-item .play-button:hover {
     color: #4f9cf9;
 }
 
-.exames .modal-item {
+.cards .modal-item {
     position: fixed;
     top: 15%;
     left: 25%;
@@ -425,7 +425,7 @@ nav .close-icon{
     /* padding: 23px; */
 }
 
-.exames .modal-item__header {
+.cards .modal-item__header {
     background-color: #949494;
     text-align: right;
     padding: 8px;
@@ -434,16 +434,16 @@ nav .close-icon{
 
 }
 
-.exames .modal-item__header span {
+.cards .modal-item__header span {
     padding-right: 14px;
     cursor: pointer;
 }
 
-.exames .modal-item__body {
+.cards .modal-item__body {
     padding: 12px;
 }
 
-.exames .fade {
+.cards .fade {
     position: fixed;
     left: 0;
     top: 0;
@@ -455,43 +455,11 @@ nav .close-icon{
 }
 
 
-.exames .none {
+.cards .none {
     display: none;
 }
-/*dados*/
-.dados{
-    background-color: #d3e6fd;
-}
-.dados .container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
-.dados .dados-item{
-    text-align: center;
-    margin: 15px;
-    color: #000000be;
-}
-
-.dados .dados-item img{
-    background-color: #4f9cf9;
-    border-radius: 14px;
-    padding: 10px;
-    margin-bottom: 15px;
-    width: 60px;
-}
-
-.dados .dados-item p{
-    font-size: 18px;
-}
-
-.dados .dados-item p strong{
-    font-size: 28px;
-
-}
-
-/*end Pagina servicos*/
+/*end Pagina demonstração*/
 /*Pagina de contato*/
 .contato-info{
     display: flex;
