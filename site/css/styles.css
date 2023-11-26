@@ -31,7 +31,7 @@ p{
 }
 
 .btn{
-    background-color: #4f9cf9;
+    background-color: #77DBE8;
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
@@ -51,7 +51,7 @@ p{
 
 @keyframes animate-outline {
     from{
-        outline: 0px solid #4f9cf9;
+        outline: 0px solid #77DBE8;
     }
     to{
         outline: 15px solid #4f9bf900;
@@ -614,7 +614,7 @@ nav .close-icon{
         position: fixed;
         top: 0;
         left: 0;
-        background-color:#184b88;
+        background-color:#77DBE8;
         width: 100%;
         height: 100%;
         flex-direction: column;
@@ -661,19 +661,20 @@ nav .close-icon{
     }
 
 
-    /*Banne responsivo*/
+    /*Banner responsivo*/
     .banner .banner-text{
         padding: 0;
         margin: 80px;
     }
 
     .banner .banner-text h1{
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .banner .banner-text p{
         font-size: 15px;
     }
+
     
     .depoimentos .card-item{
         width: 100%;
