@@ -46,87 +46,45 @@
         <!-- end - Container -->
     </header>
     <!-- end-Header-->
-    <section class="cards oculto">
+    <!-- faça mais -->
+    <section class="faca-mais">
+        <!--Container-->
         <div class="container">
-            <h3>Demonstração da solução</h3>
-            <p>veja como elaboramos uma solução para o problema</p>
-            <!--Rows cards-->
-            <div class="rows-cards">
-                <!-- Row card1 -->
-                <div class="row-card" id="card1">
-                    <!--Row card item1-->
-                    <div class="row-card-item" id="item" onclick="abrirModal('card1')">
-                        <button class="play-button">▶</button>
-                        <img src="../img/icons8-python-70.png" alt="">
-                        <p class="nome-card"><strong>Python</strong></p>
-                        <p class="descricao-card">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officiis dignissimos placeat quam mollitia minima cum maxime modi soluta, molestias possimus. Earum atque totam hic assumenda at nam, veritatis, vel veniam, quo non id aspernatur dolorem rem? Itaque vero atque distinctio. Saepe nemo commodi quidem, nostrum ad totam dicta quae?
-                        </p>
-                    </div>
-                    <!-- end Row card item1-->
-                    <!-- Modal item1 -->
-                    <div class="fade none" id="fade" onclick="fecharModal('card1')"></div>
-                    <div class="modal-item none" id="modal">
-                        <div class="modal-item__header">
-                            <span class="close-modal" id="modalBotao" onclick="fecharModal('card1')">
-                                <i class="fa fa-times-circle"></i>
-                            </span>
-                        </div>
-                        <div class="modal-item__body">
-                            <iframe 
-                                id="video"
-                                class="modal-body__video"
-                                width="100%" height="400" 
-                                src="#" 
-                                title="YouTube video player" frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                allowfullscreen> <!--FALTA ESSE !IMPORTANTE-->
-                            </iframe> 
-                        </div>
-                    </div>
-                    <!-- end Modal item1 -->
-                </div>
-                <!-- end Row card1 -->
-
-                <!-- Row card2 -->
-                <div class="row-card" id="card2">
-                    <!--Row card item2-->
-                    <div class="row-card-item" id="item" onclick="abrirModal('card2')">
-                        <button class="play-button">▶</button>
-                        <img src="../img/icons8-placa-arduino-uno-70.png" alt="">
-                        <p class="nome-card"><strong>Edge</strong></p>
-                        <p class="descricao-card">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum maiores blanditiis culpa cupiditate fugiat optio corporis assumenda earum consectetur labore ex unde, nobis voluptates sunt recusandae dolorum facilis veritatis maxime, rem perspiciatis harum molestiae debitis ullam pariatur. Nulla quis incidunt sequi. Illo veritatis pariatur optio facilis praesentium aspernatur dolores laudantium?
-                        </p>
-                    </div>
-                    <!-- end Row card item2-->
-                    <!-- Modal item2 -->
-                    <div class="fade none" id="fade" onclick="fecharModal('card2')"></div>
-                    <div class="modal-item none" id="modal">
-                        <div class="modal-item__header">
-                            <span class="close-modal" id="modalBotao" onclick="fecharModal('card2')">
-                                <i class="fa fa-times-circle"></i>
-                            </span>
-                        </div>
-                        <div class="modal-item__body">
-                            <iframe 
-                                id="video"
-                                width="100%" height="400" 
-                                src="#" 
-                                title="YouTube video player" frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                allowfullscreen> <!--FALTA ESSE !IMPORTANTE-->
-                            </iframe>
-                        </div>
-                    </div>
-                    <!-- end Modal item2 -->
-                </div>
-                <!-- end Row card2 -->
-
-                
+            <div class="faca-mais-text">
+                <h3>Edge</h3>
+                <p style="text-align: justify;">
+                    A solução proposta consiste em um dispositivo Arduino que utiliza um sensor ultrassônico para medir a distância entre o dispositivo e uma pessoa. Quando a distância é inferior a um limiar predefinido, o Arduino registra a entrada de um paciente. Isso é indicado por LEDs de diferentes cores, representando diferentes estados: vermelho para indicação de entrada, amarelo para uma situação intermediária, e verde para indicar que o paciente está longe do sensor.
+                    O projeto também incorpora uma funcionalidade de registrar a data e a hora da entrada de cada paciente, permitindo uma análise temporal do fluxo de pacientes.
+                    <br>
+                </p>
+                <a href="https://www.tinkercad.com/things/iDz8HZCpnFN-gs-edge/editel?returnTo=%2Fdashboard%3Ftype%3Dcircuits%26collection%3Ddesigns&sharecode=nb_CWYA2nTmFLDu0Aibett9ebNhmtJRMPGBdZdaMwYI" class="btn animate-btn">Link do Tinkercad</a>
+            </div> 
+           <div class="faca-mais-img">
+                <img src="../img/imagem do arduino.jpg" alt="" style="border-radius: 10px;">
+           </div>
+        </div>
+        <!-- end-Container-->
     </section>
-    <!-- end Section serviços -->
+    <!-- end-faça mais -->
+    <!-- faça mais 2 -->
+    <section class="faca-mais">
+        <!--Container-->
+        <div class="container">
+            <div class="faca-mais-img">
+                <img src="../img/sobre-img.jpg" alt="" style="border-radius: 10px;">
+           </div>
+            <div class="faca-mais-text">
+                <h3>Python</h3>
+                <p style="text-align: justify;">
+                    
 
+                </p>
+                <a href="" class="btn animate-btn">Solução em Python</a>
+            </div>       
+        </div>
+        <!-- end-Container-->
+    </section>
+    <!-- end-faça mais 2 -->
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
